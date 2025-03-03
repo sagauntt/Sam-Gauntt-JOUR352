@@ -1,0 +1,36 @@
+/*
+MY COLOR PALETTE
+Color 1 - #334A36
+Color 2 - #83A87E
+Color 3 - #EEE9D2
+Color 4 - #EECE77
+Color 5 - #EEA300
+*/
+
+body {
+    background-color: #83a87e;
+}
+
+button {
+    background-color: #eece77;
+    color: #334a36;
+    font-family: "Nunito", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #eea300;
+}
+
+.nunito {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
