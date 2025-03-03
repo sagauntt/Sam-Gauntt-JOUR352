@@ -1,0 +1,36 @@
+h1 {
+    color:#614c49;
+}
+
+img {
+    width:100%;
+}
+
+
+.nunito {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
+}
+
+
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
