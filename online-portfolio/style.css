@@ -1,36 +1,136 @@
-h1 {
-    color:#614c49;
+/*
+MY COLOR PALETTE
+Color 1 - #fff6ea
+Color 2 - #614c49
+Color 3 - #a4a39a
+Color 4 - #334a36
+Color 5 - 
+*/
+@media {
+  h1 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    text-align: center;
+    font-size: 50px;
+    margin: 250px -200px 10px 0px;
+  }
+
+  h2 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    text-align: center;
+    margin: 10px -200px 10px 0px;
+  }
+
+  button {
+    border-radius: 20px;
+    border: none;
+    font-family: bricolage-grotesque;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 100px 0px 50px 415px;
+  }
+
+  button:hover {
+    background-color: #a4a39a;
+  }
+
+  h3 {
+    margin: 25px;
+    font-family: "Open Sans", serif;
+  }
+
+  h4 {
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+  }
+
+  img {
+    width: 125%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 100px auto 0px 100px;
+    display: block;
+  }
+
+  #topper {
+    background-color: #fff6ea;
+  }
+
+  #navigation {
+    margin: 100px;
+    text-align: center;
+    background-color: #614c49;
+    color: white;
+  }
+
+  #sections {
+    margin: 25px auto 0px auto;
+  }
+
+  .jobtitle {
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .employer {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .dates {
+    font-family: "Open Sans", serif;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  #skills {
+    margin: 25px auto 0px auto;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  #education {
+    margin: 25px auto 0px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  .edu {
+    margin: auto auto 0px 25px;
+  }
+
+  .nunito {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+  }
+
+  .bricolage-grotesque {
+    font-family: "Bricolage Grotesque", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: bold;
+    font-variation-settings: "width" 100;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
 }
 
-img {
-    width:100%;
+@media (min-width: 576px) {
+  font-size: 100px;
 }
-
-
-.nunito {
-  font-family: "Nunito", serif;
-  font-optical-sizing: auto;
-  font-weight: 100%;
-  font-style: normal;
-}
-
-
-.bricolage-grotesque {
-  font-family: "Bricolage Grotesque", serif;
-  font-optical-sizing: auto;
-  font-weight: 100%;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-
-.open-sans {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 100%;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
