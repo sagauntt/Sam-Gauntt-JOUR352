@@ -6,20 +6,22 @@ Color 3 - #a4a39a
 Color 4 - #334a36
 Color 5 - 
 */
-@media {
+@media screen {
   h1 {
     color: #614c49;
     font-family: bricolage-grotesque;
     text-align: center;
+    float: right;
     font-size: 50px;
-    margin: 250px -200px 10px 0px;
+    margin: auto;
   }
 
   h2 {
     color: #614c49;
     font-family: bricolage-grotesque;
     text-align: center;
-    margin: 10px -200px 10px 0px;
+    float: right;
+    margin: auto;
   }
 
   button {
@@ -27,17 +29,24 @@ Color 5 -
     border: none;
     font-family: bricolage-grotesque;
     text-align: center;
+    float: right;
     width: 200px;
     padding: 20px;
-    margin: 100px 0px 50px 415px;
+    margin: auto;
+  }
+  
+  button a {
+     color:black;
   }
 
   button:hover {
     background-color: #a4a39a;
   }
+  
+  
 
   h3 {
-    margin: 25px;
+    margin:auto;
     font-family: "Open Sans", serif;
   }
 
@@ -60,12 +69,21 @@ Color 5 -
 
   #navigation {
     margin: 100px;
-    text-align: center;
+    padding:25px;
+    width:auto;
     background-color: #614c49;
     color: white;
   }
+  
+  .nav a {
+    color:white;
+  }
+  
+  .nav a:hover {
+    color:lightgray;
+  }
 
-  #sections {
+  #experience {
     margin: 25px auto 0px auto;
   }
 
@@ -84,6 +102,13 @@ Color 5 -
   }
 
   .dates {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .jobdescription {
     font-family: "Open Sans", serif;
     color: #334a36;
     margin: auto auto 0px 25px;
@@ -107,11 +132,12 @@ Color 5 -
     margin: auto auto 0px 25px;
   }
 
-  .nunito {
-    font-family: "Nunito", serif;
-    font-optical-sizing: auto;
-    font-weight: 100%;
-    font-style: normal;
+  #footer {
+    background-color: #614c49;
+    color: white;
+    margin:25px auto auto;
+    padding: 25px;
+    width: 100%;
   }
 
   .bricolage-grotesque {
