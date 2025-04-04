@@ -18,31 +18,39 @@
         <link href="style.css" rel="stylesheet" />
     </head>
 
-    <body id="topper">
-        <div class="container-fluid">
+    <body>
+        <div class="container-fluid" id="topper">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <img src="headshot-3490.jpg" alt="Sam Gauntt headshot" />
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-6">
                     <h1>Sam Gauntt</h1>
-                    <h2>Visual Journalist</h2>
-                    <button><a href="mailto:sgauntt@terpmail.umd.edu">Get in touch!</a></button>
+                    <h2>Journalist</h2>
+                    <button>
+                        <a href="mailto:sgauntt@terpmail.umd.edu">Get in touch!</a>
+                    </button>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid" id="navigation">
-            <div class="row">
-                <div class="col-sm-4 nav"><h3><a href ="#experience">Experience</a></h3></div>
-                <div class="col-sm-4 nav"><h3><a href="skills">Skills</a></h3></div>
-                <div class="col-sm-4 nav"><h3><a href="education">Education</a></h3></div>
+            <div class="container-fluid" id="navigation">
+                <div class="row">
+                    <div class="col-sm-4 nav">
+                        <h3><a href="#experience">Experience</a></h3>
+                    </div>
+                    <div class="col-sm-4 nav">
+                        <h3><a href="#skills">Skills</a></h3>
+                    </div>
+                    <div class="col-sm-4 nav">
+                        <h3><a href="#education">Education</a></h3>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container-fluid" id="sections">
             <div class="row" id="experience">
                 <h4>Experience</h4>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-6">
                         <p class="jobtitle">Assistant News Editor</p>
                         <p class="employer">The Diamondback</p>
                         <p class="dates">September 2024 – Present</p>
@@ -57,7 +65,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-6">
                         <p class="jobtitle">Staff Writer</p>
                         <p class="employer">The Diamondback</p>
                         <p class="dates">August 2023 - September 2024</p>
@@ -70,7 +78,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-6">
                         <p class="jobtitle">Contributing reporter</p>
                         <p class="employer">College Park Here & Now</p>
                         <p class="dates">February 2024 – Present</p>
@@ -80,22 +88,26 @@
                         </p>
                         <br />
                         <br />
-                        <p class="jobtitle">Associate editor</p>
-                        <p class="employer">College Park Here & Now</p>
-                        <p class="dates">July – September 2024</p>
-                        <p class="jobdescription">
-                            Copy edited and fact checked all articles before publication in this award-winning,
-                            non-profit community newspaper serving the city of College Park. Assisted managing editor in
-                            proofreading and correcting every article in each issue during production.
-                        </p>
-                        <br />
-                        <br />
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p class="jobtitle">Associate editor</p>
+                                <p class="employer">College Park Here & Now</p>
+                                <p class="dates">July – September 2024</p>
+                                <p class="jobdescription">
+                                    Copy edited and fact checked all articles before publication in this award-winning,
+                                    non-profit community newspaper serving the city of College Park. Assisted managing
+                                    editor in proofreading and correcting every article in each issue during production.
+                                </p>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="container-fluid" id="skills">
                 <h4>Skills</h4>
-                <div class="row">
+                 <div class="row">
                     <div class="col-6">
                         <ul class="Skill">
                             <li>AP Style</li>
@@ -112,7 +124,7 @@
         </div>
         <div class="container-fluid" id="education">
             <h4>Education</h4>
-            <div class="row">
+             <div class="row">
                 <div class="col-6">
                     <p class="edu">Bachelor of Arts, Journalism</p>
                     <p class="edu">University of Maryland, expected graduation 2027</p>

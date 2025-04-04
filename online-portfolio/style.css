@@ -10,43 +10,43 @@ Color 5 -
   h1 {
     color: #614c49;
     font-family: bricolage-grotesque;
-    text-align: center;
-    float: right;
-    font-size: 50px;
-    margin: auto;
+    font-size: 75px;
+    margin:200px auto auto 400px;
+justify-content: center;
   }
 
   h2 {
     color: #614c49;
     font-family: bricolage-grotesque;
-    text-align: center;
-    float: right;
-    margin: auto;
+    justify-content:center;
+    margin:25px auto auto 400px;
+  
+  }
+
+  body {
+    background-color: #fff6ea;
   }
 
   button {
     border-radius: 20px;
     border: none;
     font-family: bricolage-grotesque;
-    text-align: center;
-    float: right;
+     justify-content:center;
     width: 200px;
     padding: 20px;
-    margin: auto;
+    margin:25px auto auto 400px;
   }
-  
+
   button a {
-     color:black;
+    color: black;
   }
 
   button:hover {
     background-color: #a4a39a;
   }
-  
-  
 
   h3 {
-    margin:auto;
+    margin: auto;
     font-family: "Open Sans", serif;
   }
 
@@ -69,18 +69,18 @@ Color 5 -
 
   #navigation {
     margin: 100px;
-    padding:25px;
-    width:auto;
+    padding: 25px;
+    width: auto;
     background-color: #614c49;
     color: white;
   }
-  
+
   .nav a {
-    color:white;
+    color: white;
   }
-  
+
   .nav a:hover {
-    color:lightgray;
+    color: lightgray;
   }
 
   #experience {
@@ -92,6 +92,7 @@ Color 5 -
     font-size: 25px;
     color: #334a36;
     margin: auto auto 0px 25px;
+    font-weight: bold;
   }
 
   .employer {
@@ -135,7 +136,7 @@ Color 5 -
   #footer {
     background-color: #614c49;
     color: white;
-    margin:25px auto auto;
+    margin: 25px auto auto;
     padding: 25px;
     width: 100%;
   }
@@ -158,5 +159,40 @@ Color 5 -
 }
 
 @media (min-width: 576px) {
-  font-size: 100px;
+  body {
+    background-color: #fff6ea;
+  }
+
+  h1 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    text-align: bottom;
+    justify-content: center;
+  }
+
+  h2 {
+    color: #614c49;
+    font-size: 50px;
+    font-family: bricolage-grotesque;
+    justify-content: center;
+  }
+
+  button {
+    border-radius: 25px;
+    border: none;
+    font-family: bricolage-grotesque;
+    width: 200px;
+    justify-content: center;
+  }
+
+  h3 {
+    margin: auto;
+    font-family: "Open Sans", serif;
+    justify-content: center;
+  }
+
+  h4 {
+    font-size: 60px;
+    font-family: "Open Sans", serif;
+  }
 }
