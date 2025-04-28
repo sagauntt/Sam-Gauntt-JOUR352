@@ -1,0 +1,55 @@
+/*
+ * H1 - Headline
+ * H2 - Dek
+ * H3 - Pull quote
+ * H4 - Section header
+ */
+
+h1 {
+    font-size:500%;
+    float:left;
+}
+
+h2 {
+    text-align:center;
+}
+
+#byline {
+    text-align:center;
+}
+
+#byline {
+    text-align:center;
+}
+
+#date {
+    color:#c8c8c8;
+    text-align:center;
+}
+
+.cutline {
+    text-align:left;
+   color:gray;
+}
+
+.bodytext {
+    margin: auto 25% auto 25%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
