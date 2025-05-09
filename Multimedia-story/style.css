@@ -36,13 +36,17 @@ h2 {
     margin: auto 25% auto 25%;
 }
 
+.embed1 {
+    width:75%;
+}
+
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.bottom-left {
+.bottom-left-lead {
   position: absolute;
   bottom: 8px;
   left: 16px;
