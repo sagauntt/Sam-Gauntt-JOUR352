@@ -5,55 +5,62 @@
  * H4 - Section header
  */
 
+@media screen {
+
+body {
+    margin: auto;
+}
+
+img {
+    width:100%;
+}
+
+
 h1 {
-    font-size:500%;
-    float:left;
+    font-size: 200%;
+    background-color:rgba(0, 0, 0, 0.48);
+    
 }
 
 h2 {
-    text-align:center;
+    padding: 40% 0px 0px 0px;
+    text-align: center;
 }
 
 #byline {
-    text-align:center;
-}
-
-#byline {
-    text-align:center;
+    text-align: center;
 }
 
 #date {
-    color:#c8c8c8;
-    text-align:center;
+    color: #c8c8c8;
+    text-align: center;
 }
 
 .cutline {
-    text-align:left;
-   color:gray;
+    text-align: left;
+    color: gray;
 }
 
 .bodytext {
+    margin: 0px;
+}
+
+#topper {
+    background-image:url(2N6RMET6DAI6TMPTWIZ74WAR54.jpg);
+    background-size:cover;
+    background-position:bottom right;
+    height:75vh;
+    text-align: center;
+    color: white;
+    }
+}
+
+@media (min-width:576px) {
+    h1 {
+        font-size:300%;
+    }
+    
+    .bodytext {
     margin: auto 25% auto 25%;
 }
-
-.embed1 {
-    width:75%;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.bottom-left-lead {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
 }
