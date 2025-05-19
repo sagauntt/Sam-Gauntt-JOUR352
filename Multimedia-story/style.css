@@ -1,5 +1,7 @@
 /*
  * Colors:
+ * Body text: black
+ * Headline: white
  * Background: #faf6f1
  * Accent + links: #900000
  * Cutlines + date: #808080
@@ -24,10 +26,6 @@
         font-size: 150;
         padding: 20% 0px 0px 0px;
         font-family: newsreader;
-    }
-
-    h3 {
-        margin: auto auto 1% 20%;
     }
 
     #byline {
@@ -85,7 +83,7 @@
         text-align: right;
     }
 
-    .flourish-embed-flourish-chart {
+    .flourish-chart {
         width: 60%;
         margin: auto;
     }
@@ -104,15 +102,11 @@
         color: white;
     }
 
-    .mug {
-        width: 10%;
-        height: 1.4%;
-    }
-
     a {
         color: #900000;
         text-decoration: none;
     }
+
     a:hover {
         font-weight: bold;
     }
@@ -148,17 +142,17 @@
     #tyler {
         width: 40%;
     }
-    
+
     #burton1 {
-         width: 40%;
+        width: 40%;
         margin: auto 1% auto 10%;
     }
-    
+
     #burton2 {
         width: 40%;
     }
-    
-     .portrait-cutline {
+
+    .portrait-cutline {
         text-align: center;
         color: #808080;
     }
@@ -235,6 +229,6 @@
     }
 
     .bodytext {
-        margin: auto 25% auto 25%;
+        margin: auto 30% auto 30%;
     }
 }
