@@ -1,66 +1,240 @@
 /*
- * H1 - Headline
- * H2 - Dek
- * H3 - Pull quote
- * H4 - Section header
+ * Colors:
+ * Background: #faf6f1
+ * Accent + links: #900000
+ * Cutlines + date: #808080
  */
 
 @media screen {
-
-body {
-    margin: auto;
-}
-
-img {
-    width:100%;
-}
-
-
-h1 {
-    font-size: 200%;
-    background-color:rgba(0, 0, 0, 0.48);
-    
-}
-
-h2 {
-    padding: 40% 0px 0px 0px;
-    text-align: center;
-}
-
-#byline {
-    text-align: center;
-}
-
-#date {
-    color: #c8c8c8;
-    text-align: center;
-}
-
-.cutline {
-    text-align: left;
-    color: gray;
-}
-
-.bodytext {
-    margin: 0px;
-}
-
-#topper {
-    background-image:url(2N6RMET6DAI6TMPTWIZ74WAR54.jpg);
-    background-size:cover;
-    background-position:bottom right;
-    height:75vh;
-    text-align: center;
-    color: white;
+    body {
+        margin: auto;
+        background-color: #faf6f1;
     }
-}
 
-@media (min-width:576px) {
+    img {
+        width: 100%;
+    }
+
     h1 {
-        font-size:300%;
+        font-size: 250%;
+        font-family: commissioner;
+    }
+
+    h2 {
+        font-size: 150;
+        padding: 20% 0px 0px 0px;
+        font-family: newsreader;
+    }
+
+    h3 {
+        margin: auto auto 1% 20%;
+    }
+
+    #byline {
+        text-align: center;
+        font-family: commissioner;
+    }
+
+    #date {
+        color: #808080;
+        text-align: center;
+        font-family: commissioner;
+    }
+
+    .cutline {
+        text-align: left;
+        color: #808080;
+        font-family: commissioner;
+        font-size: 80%;
+    }
+
+    .bodytext {
+        font-size: 130%;
+        margin: auto;
+        font-family: newsreader;
+    }
+
+    .pullquote {
+        border-top: 6px solid;
+        border-bottom: 4px solid;
+        width: 60%;
+        margin: 6% auto 6% auto;
+        padding: 3%;
+        color: #900000;
+    }
+
+    .quotemark {
+        font-family: sorts mill goudy;
+        font-size: 400%;
+        font-weight: bold;
+        float: left;
+        line-height: 1em;
+    }
+
+    .quote {
+        font-size: 130%;
+        font-family: newsreader;
+        padding: auto;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 50%;
+        font-family: newsreader;
+        text-align: right;
+    }
+
+    .flourish-embed-flourish-chart {
+        width: 60%;
+        margin: auto;
+    }
+
+    .flourish-embed {
+        width: 80%;
+        margin: auto;
+    }
+
+    #topper {
+        background-image: url(gradpic.jpg);
+        background-size: cover;
+        background-position: bottom right;
+        height: 100vh;
+        text-align: left;
+        color: white;
+    }
+
+    .mug {
+        width: 10%;
+        height: 1.4%;
+    }
+
+    a {
+        color: #900000;
+        text-decoration: none;
+    }
+    a:hover {
+        font-weight: bold;
+    }
+
+    #contrera {
+        width: 8%;
+        margin: 0px 1% 0px 25%;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .about {
+        margin: auto 25% auto 25%;
+        font-family: newsreader;
+    }
+
+    hr {
+        width: 50%;
+        margin: auto;
+    }
+
+    .dropcap {
+        font-size: 350%;
+        line-height: 100%;
+        color: #900000;
+    }
+
+    #seth {
+        width: 40%;
+        margin: auto 1% auto 10%;
+    }
+
+    #tyler {
+        width: 40%;
     }
     
-    .bodytext {
-    margin: auto 25% auto 25%;
+    #burton1 {
+         width: 40%;
+        margin: auto 1% auto 10%;
+    }
+    
+    #burton2 {
+        width: 40%;
+    }
+    
+     .portrait-cutline {
+        text-align: center;
+        color: #808080;
+    }
 }
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 350%;
+        padding: 5% 0px 0px 5%;
+        width: 75%;
+    }
+
+    h2 {
+        font-size: 200%;
+        padding: 5% 0px 0px 5%;
+        text-align: left;
+        width: 75%;
+    }
+
+    .pullquote {
+        width: 60%;
+        margin: 4% auto 4% auto;
+        padding: 2%;
+    }
+
+    .quotemark {
+        font-size: 600%;
+    }
+
+    .quote {
+        font-size: 140%;
+    }
+
+    .name {
+        font-size: 100%;
+    }
+
+    .bodytext {
+        font-size: 140%;
+        margin: auto 20% auto 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 500%;
+        padding: 5% 0px 0px 5%;
+        width: 75%;
+    }
+
+    h2 {
+        font-size: 250%;
+        padding: 5% 20% 0px 5%;
+        text-align: left;
+        width: 75%;
+    }
+
+    .pullquote {
+        width: 60%;
+        margin: 6% auto 6% auto;
+        padding: 3%;
+    }
+
+    .quotemark {
+        font-size: 800%;
+    }
+
+    .quote {
+        font-size: 200%;
+    }
+
+    .name {
+        font-size: 150%;
+    }
+
+    .bodytext {
+        margin: auto 25% auto 25%;
+    }
 }
